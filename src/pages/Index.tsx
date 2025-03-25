@@ -7,6 +7,7 @@ import Team from "../components/Team";
 import Vision from "../components/Vision";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import { Members } from "@/components/Members";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <About />
       <Events />
       <Team />
+      <Members />
       <Vision />
       <Contact />
       <Footer />

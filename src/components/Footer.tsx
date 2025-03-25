@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">Enigma</h3>
             <p className="text-enigma-300 mb-6 max-w-md">
-              A student-led technology club dedicated to fostering innovation, collaboration, and technical excellence among passionate students.
+              A student-led club dedicated to fostering innovation, collaboration, and technical excellence among passionate students.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="p-2 rounded-full bg-enigma-800 hover:bg-enigma-700 transition-colors">
@@ -53,8 +53,8 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-2">
-              <li className="text-enigma-300">Student Center, Room 305</li>
-              <li className="text-enigma-300">University Campus</li>
+              <li className="text-enigma-300">JAIN (Deemed-to-be-University)</li>
+              <li className="text-enigma-300">Faculty of Engineering and Technology (FET)</li>
               <li className="text-enigma-300">info@enigmaclub.edu</li>
               <li className="text-enigma-300">(123) 456-7890</li>
             </ul>

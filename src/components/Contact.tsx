@@ -39,10 +39,8 @@ const Contact = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {contactInfo.map((item, index) => (
-            <a 
+            <div 
               key={item.title}
-              href={item.link}
-              target={item.title === "Visit Us" ? "_blank" : undefined}
               rel={item.title === "Visit Us" ? "noopener noreferrer" : undefined}
               className="flex flex-col items-center text-center p-6 rounded-xl glass dark:glass-dark opacity-0 animate-fade-in transition-transform hover:scale-105" 
               style={{ animationDelay: `${0.3 + index * 0.1}s` }}
@@ -52,7 +50,7 @@ const Contact = () => {
               </div>
               <h3 className="text-lg font-bold text-enigma-900 dark:text-white mb-2">{item.title}</h3>
               <p className="text-enigma-700 dark:text-enigma-300">{item.details}</p>
-            </a>
+            </div>
           ))}
         </div>
 
