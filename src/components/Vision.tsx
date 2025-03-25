@@ -21,14 +21,14 @@ const Vision = () => {
             <div className="md:w-2/3">
               <div className="space-y-6 text-center md:text-left">
                 <h2 className="text-3xl md:text-4xl font-bold text-white opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-                  Our <span className="text-enigma-300">Vision</span>
+                  Our <span className="text-purple-600">Vision</span>
                 </h2>
                 
-                <blockquote className="text-xl md:text-2xl italic text-enigma-100 opacity-0 animate-fade-in" style={{ animationDelay: "0.3s" }}>
+                <blockquote className="text-xl md:text-2xl italic text-purple-500 opacity-0 animate-fade-in" style={{ animationDelay: "0.3s" }}>
                   "To create a community where innovation flourishes, where students can transform their ideas into reality, and where technology is harnessed to make a positive impact on society."
                 </blockquote>
                 
-                <p className="text-enigma-200 opacity-0 animate-fade-in" style={{ animationDelay: "0.4s" }}>
+                <p className="text-purple-400 opacity-0 animate-fade-in" style={{ animationDelay: "0.4s" }}>
                   We envision a future where every student has the opportunity to explore their technological interests, develop professional skills, and collaborate on meaningful projects. By fostering an inclusive environment that encourages experimentation and learning, we aim to prepare the next generation of leaders who will drive technological advancements and create solutions for tomorrow's challenges.
                 </p>
                 

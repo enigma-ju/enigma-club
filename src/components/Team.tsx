@@ -50,6 +50,30 @@ const Team = () => {
         linkedin: "https://linkedin.com",
         github: "https://github.com"
       }
+    },
+    {
+      id: 5,
+      name: "Marcus Johnson",
+      role: "Events Coordinator",
+      bio: "Business and CS double major with excellent organizational skills",
+      image: "https://i.pravatar.cc/300?img=7",
+      social: {
+        email: "mailto:marcus@example.com",
+        linkedin: "https://linkedin.com",
+        github: "https://github.com"
+      }
+    },
+    {
+      id: 6,
+      name: "Marcus Johnson",
+      role: "Events Coordinator",
+      bio: "Business and CS double major with excellent organizational skills",
+      image: "https://i.pravatar.cc/300?img=7",
+      social: {
+        email: "mailto:marcus@example.com",
+        linkedin: "https://linkedin.com",
+        github: "https://github.com"
+      }
     }
   ];
 
