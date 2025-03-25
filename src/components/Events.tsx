@@ -7,25 +7,25 @@ const Events = () => {
       id: 1,
       title: "Tech Hackathon",
       description: "A 24-hour coding marathon to solve real-world problems through technology",
-      date: "April 15, 2023",
+      date: "April 15, 2025",
       time: "10:00 AM - 10:00 AM (Next day)",
-      location: "University Main Campus",
+      location: "SET Jain",
       image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80"
     },
     {
       id: 2,
       title: "AI Workshop Series",
       description: "Learn the fundamentals of artificial intelligence and machine learning",
-      date: "May 5-7, 2023",
+      date: "May 5-7, 2025",
       time: "2:00 PM - 5:00 PM",
-      location: "Science Building, Room 305",
+      location: "SET Jain, Room 003",
       image: "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80"
     },
     {
       id: 3,
       title: "Industry Connect",
       description: "Networking event with tech industry professionals and alumni",
-      date: "June 12, 2023",
+      date: "June 12, 2025",
       time: "4:00 PM - 7:00 PM",
       location: "Virtual Event",
       image: "https://images.unsplash.com/photo-1591115765373-5207764f72e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80"
