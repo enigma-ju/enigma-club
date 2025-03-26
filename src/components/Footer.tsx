@@ -35,6 +35,19 @@ const Footer = () => {
               >
                 <Linkedin className="w-5 h-5 " />
               </a>
+              <a
+                href="https://chat.whatsapp.com/KUe221OJGsd63Hs5grwUMS"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 rounded-full bg-enigma-800 hover:bg-enigma-700 text-white transition-colors"
+              >
+                <img
+                  src="/w.webp"
+                  height={20}
+                  width={20}
+                  className="w-5 h-5 text-white"
+                />
+              </a>
             </div>
           </div>
 
