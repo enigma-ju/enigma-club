@@ -20,7 +20,7 @@ const Team = () => {
       image: lead,
       social: {
         email: "pushkarrai1581@gmail.com",
-        linkedin: "www.linkedin.com/in/pushkar-rai-347130354",
+        linkedin: "http://linkedin.com/in/pushkar-rai-347130354",
         github: "https://github.com/PushkarRai0302",
       },
     },
