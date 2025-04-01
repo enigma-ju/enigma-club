@@ -6,6 +6,7 @@ import creative from "/leads/creative.jpeg";
 import operation from "/leads/operation.jpeg";
 import photography from "/leads/photography.jpeg";
 import resource from "/leads/resource.jpeg";
+import social from "/leads/social.jpeg";
 import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 
@@ -94,6 +95,18 @@ const Team = () => {
         email: "ayadee.aphiwatamorn@gmail.com",
         linkedin: "http://linkedin.com/in/ayadee-aphiwatamorn1878",
         github: "https://github.com/AyadeeAphiwatamorn",
+      },
+    },
+    {
+      id: 8,
+      name: "Yashraj Sinha",
+      role: "Social Media Lead",
+      bio: "Pushing boundaries and building innovative solutions.",
+      image: social,
+      social: {
+        email: "yashrajsinha05@gmail.com",
+        linkedin: "https://www.linkedin.com/in/yashraj-sinha-1323062a3/",
+        github: "https://github.com/Yash05Raj",
       },
     },
   ];
