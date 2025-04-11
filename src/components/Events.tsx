@@ -9,7 +9,7 @@ const Events = () => {
       title: "Race for Roles 2025",
       description: "The race has officially begun — and it's your time to register!",
       subDescription: "Join the Enigma fam and become part of a club",
-      date: "Tuesday, 15th April",
+      date: "Last Date: Monday, 14th April",
       time: "",
       location: "Jain Global Campus",
       image: raceRole,
