@@ -41,7 +41,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <a href="#home" className="flex items-center gap-2">
-                <img width={50} height={50} src={logo} alt="logo" className="rounded-full" />
+                <img width={40} height={40} src={logo} alt="logo" className="rounded-full" />
                 {/* <span className="text-2xl font-bold text-enigma-700 dark:text-enigma-300">
                   Enigma
                 </span> */}
