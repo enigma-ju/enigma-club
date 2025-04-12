@@ -90,7 +90,8 @@ const Events = () => {
               </div>
               
               <div className="px-6 lg:px-7 py-5 bg-enigma-50 dark:bg-enigma-800/50 border-t border-enigma-100 dark:border-enigma-700">
-                <a 
+                <a
+                  data-umami-event="Register Race for Roles" 
                   href={event.url}
                   target="_blank"
                   className="block w-full text-center py-2.5 px-6 rounded-xl bg-enigma-600 hover:bg-enigma-700 text-white font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-enigma-600/20"
