@@ -39,30 +39,6 @@ const Team = () => {
     },
     {
       id: 3,
-      name: "Thinley Lama",
-      role: "Technical Lead",
-      bio: "I do Web | AI",
-      image: tech,
-      social: {
-        email: "thinleylama44@gmail.com",
-        linkedin: "https://www.linkedin.com/in/thinley-lama-842631252/",
-        github: "https://github.com/thinley4",
-      },
-    },
-    {
-      id: 4,
-      name: "Aakash Agarwal",
-      role: "Resource Lead",
-      bio: "Passionate technologist solving real-world challenges",
-      image: resource,
-      social: {
-        email: "aakashrkl603@gmail.com",
-        linkedin: "https://www.linkedin.com/in/aakashagarwal1609/",
-        github: "https://github.com/AaKaShAgArWaLs",
-      },
-    },
-    {
-      id: 5,
       name: "Shaili Srivastava ",
       role: "Operation Lead",
       bio: "Passionate about technology and problem-solving. I love building efficient systems, optimizing workflows, and constantly learning new stuff to stay ahead.",
@@ -74,15 +50,39 @@ const Team = () => {
       },
     },
     {
-      id: 6,
-      name: "C Sathyamrit",
-      role: "Photography Lead",
-      bio: "Eager and enthusiastic about exploring new things.",
-      image: photography,
+      id: 4,
+      name: "Yashraj Sinha",
+      role: "Social Media Manager",
+      bio: "Pushing boundaries and building innovative solutions.",
+      image: social,
       social: {
-        email: "sathyac2004@gmail.com",
-        linkedin: "https://www.linkedin.com/in/sathyamrit-c-3a32372a4",
-        github: "https://github.com/sathyamrit",
+        email: "yashrajsinha05@gmail.com",
+        linkedin: "https://www.linkedin.com/in/yashraj-sinha-1323062a3/",
+        github: "https://github.com/Yash05Raj",
+      },
+    },
+    {
+      id: 5,
+      name: "Thinley Lama",
+      role: "Technical Lead",
+      bio: "I do Web | AI",
+      image: tech,
+      social: {
+        email: "thinleylama44@gmail.com",
+        linkedin: "https://www.linkedin.com/in/thinley-lama-842631252/",
+        github: "https://github.com/thinley4",
+      },
+    },
+    {
+      id: 6,
+      name: "Aakash Agarwal",
+      role: "Resource Lead",
+      bio: "Passionate technologist solving real-world challenges",
+      image: resource,
+      social: {
+        email: "aakashrkl603@gmail.com",
+        linkedin: "https://www.linkedin.com/in/aakashagarwal1609/",
+        github: "https://github.com/AaKaShAgArWaLs",
       },
     },
     {
@@ -99,16 +99,16 @@ const Team = () => {
     },
     {
       id: 8,
-      name: "Yashraj Sinha",
-      role: "Social Media Lead",
-      bio: "Pushing boundaries and building innovative solutions.",
-      image: social,
+      name: "C Sathyamrit",
+      role: "Photography Lead",
+      bio: "Eager and enthusiastic about exploring new things.",
+      image: photography,
       social: {
-        email: "yashrajsinha05@gmail.com",
-        linkedin: "https://www.linkedin.com/in/yashraj-sinha-1323062a3/",
-        github: "https://github.com/Yash05Raj",
+        email: "sathyac2004@gmail.com",
+        linkedin: "https://www.linkedin.com/in/sathyamrit-c-3a32372a4",
+        github: "https://github.com/sathyamrit",
       },
-    },
+    }
   ];
 
   const copyToClipboard = (text: string) => {

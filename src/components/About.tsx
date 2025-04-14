@@ -54,7 +54,7 @@ const About = () => {
                       Our Mission
                     </h3>
                     <p className="text-sm sm:text-base text-enigma-800 dark:text-enigma-100 text-center sm:text-left">
-                      The mission of ENIGMA is to bring like-minded enthusiasts
+                      The mission of enigma is to bring like-minded enthusiasts
                       together to share their ideas for simultaneous development
                       by mutual contribution.
                     </p>
