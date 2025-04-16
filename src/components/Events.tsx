@@ -1,23 +1,11 @@
 import { Calendar, MapPin, Clock } from "lucide-react";
 import hackathon from "/hackathon.jpeg"
-import raceRole from "/race-role.jpeg"
+// import raceRole from "/race-role.jpeg"
 
 const Events = () => {
   const events = [
     {
       id: 1,
-      title: "Race for Roles 2025",
-      description: "The race has officially begun — and it's your time to register!",
-      subDescription: "Join the Enigma fam and become part of a club",
-      date: "Last Date: Monday, 14th April",
-      time: "",
-      location: "Jain Global Campus",
-      image: raceRole,
-      url: "https://forms.gle/7nX5t3Vnb2hgMNy98"
-      // image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80"
-    },
-    {
-      id: 2,
       title: "INCEPTRIX 2025",
       description: "Get ready for INCEPTRIX 2025 – a 24-hour National-Level Hackathon hosted by JAIN (Deemed-to-be University), Faculty of Engineering and Technology.",
       subDescription: "",
@@ -44,7 +32,7 @@ const Events = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 lg:gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 lg:gap-8 max-w-xl mx-auto">
           {events.map((event, index) => (
             <div 
               key={event.id}

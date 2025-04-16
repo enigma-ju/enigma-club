@@ -29,12 +29,6 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in opacity-0" style={{ animationDelay: "0.6s" }}>
             <a 
-              href="#events" 
-              className="px-8 py-3 rounded-lg bg-enigma-600 hover:bg-enigma-700 text-white font-medium transition-all transform hover:scale-105 hover:shadow-lg"
-            >
-              Race for Roles
-            </a>
-            <a 
               href="#about" 
               className="px-8 py-3 rounded-lg bg-white dark:bg-enigma-900 text-enigma-600 dark:text-enigma-300 font-medium border border-enigma-200 dark:border-enigma-700 hover:border-enigma-300 dark:hover:border-enigma-600 transition-all transform hover:scale-105 hover:shadow-lg"
             >
@@ -42,7 +36,7 @@ const Hero = () => {
             </a>
             <a 
               href="#contact" 
-              className="px-8 py-3 rounded-lg bg-white dark:bg-enigma-900 text-enigma-600 dark:text-enigma-300 font-medium border border-enigma-200 dark:border-enigma-700 hover:border-enigma-300 dark:hover:border-enigma-600 transition-all transform hover:scale-105 hover:shadow-lg"
+              className="px-8 py-3 rounded-lg bg-enigma-600 hover:bg-enigma-700 text-white font-medium transition-all transform hover:scale-105 hover:shadow-lg"
             >
               Join Us
             </a>
