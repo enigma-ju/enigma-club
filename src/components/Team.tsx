@@ -10,35 +10,49 @@ import social from "/leads/social.jpeg";
 import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 
-
 const Team = () => {
   const members = [
-    {
+   {
       id: 1,
-      name: "Pushkar Rai",
-      role: "Lead",
-      bio: "Passionate about programming, technology, and continuous learning.",
-      image: lead,
-      social: {
-        email: "pushkarrai1581@gmail.com",
-        linkedin: "http://linkedin.com/in/pushkar-rai-347130354",
-        github: "https://github.com/PushkarRai0302",
-      },
-    },
-    {
-      id: 2,
       name: "Yamuna Sharma D",
-      role: "Co-Lead",
+      role: "Lead",
       bio: "Always drawn to art and creativity, i love finding stories in colors, design and the little details that often go unnoticed ",
-      image: coLead,
+      image:lead,
       social: {
         email: "yamusharma529@gmail.com",
         linkedin: "http://linkedin.com/in/yamuna-sharma-192a2029b",
         github: "https://github.com/yamunasharma24",
       },
     },
+    // {
+    //   /* The code snippet you provided is defining a member of a team in a React component.
+    //   Specifically, this part of the code is defining the details of a team member with the
+    //   following information: */
+    //   id: 2,
+    //   name: "Yamuna Sharma Daa",
+    //   role: "Co-Lead",
+    //   bio: "Always drawn to art and creativity, i love finding stories in colors, design and the little details that often go unnoticed ",
+    //   image: coLead,
+    //   social: {
+    //     email: "yamusharma529@gmail.com",
+    //     linkedin: "http://linkedin.com/in/yamuna-sharma-192a2029b",
+    //     github: "https://github.com/yamunasharma24",
+    //   },
+    // },
     {
       id: 3,
+      name: "Krishal Karna",
+      role: "Technical Lead",
+      bio: "Turning data into decisions — one model at a time.",
+      image: tech,
+      social: {
+        email: "karnakreeshal@gmail.com",
+        linkedin: "https://www.linkedin.com/in/krishalkarna/",
+        github: "https://github.com/kreeshal17",
+      },
+    },
+    {
+      id: 4,
       name: "Shaili Srivastava ",
       role: "Operation Lead",
       bio: "Passionate about technology and problem-solving. I love building efficient systems, optimizing workflows, and constantly learning new stuff to stay ahead.",
@@ -49,30 +63,20 @@ const Team = () => {
         github: "https://github.com/ShailiSrivastava",
       },
     },
-    {
-      id: 4,
-      name: "Yashraj Sinha",
-      role: "Social Media Manager",
-      bio: "Pushing boundaries and building innovative solutions.",
-      image: social,
-      social: {
-        email: "yashrajsinha05@gmail.com",
-        linkedin: "https://www.linkedin.com/in/yashraj-sinha-1323062a3/",
-        github: "https://github.com/Yash05Raj",
-      },
-    },
-    {
-      id: 5,
-      name: "Thinley Lama",
-      role: "Technical Lead",
-      bio: "I do Web | AI",
-      image: tech,
-      social: {
-        email: "thinleylama44@gmail.com",
-        linkedin: "https://www.linkedin.com/in/thinley-lama-842631252/",
-        github: "https://github.com/thinley4",
-      },
-    },
+    
+    // {
+    //   id: 5,
+    //   name: "Yashraj Sinha",
+    //   role: "Social Media Manager",
+    //   bio: "Pushing boundaries and building innovative solutions.",
+    //   image: social,
+    //   social: {
+    //     email: "yashrajsinha05@gmail.com",
+    //     linkedin: "https://www.linkedin.com/in/yashraj-sinha-1323062a3/",
+    //     github: "https://github.com/Yash05Raj",
+    //   },
+    // },
+    
     {
       id: 6,
       name: "Aakash Agarwal",
@@ -99,7 +103,7 @@ const Team = () => {
     },
     {
       id: 8,
-      name: "C Sathyamrit",
+      name: "Suyog Lal Shrestha",
       role: "Photography Lead",
       bio: "Eager and enthusiastic about exploring new things.",
       image: photography,
