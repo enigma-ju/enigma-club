@@ -12,12 +12,12 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Team = () => {
   const members = [
-   {
+    {
       id: 1,
       name: "Yamuna Sharma D",
       role: "Lead",
       bio: "Always drawn to art and creativity, i love finding stories in colors, design and the little details that often go unnoticed ",
-      image:lead,
+      image: lead,
       social: {
         email: "yamusharma529@gmail.com",
         linkedin: "http://linkedin.com/in/yamuna-sharma-192a2029b",
@@ -63,7 +63,7 @@ const Team = () => {
         github: "https://github.com/ShailiSrivastava",
       },
     },
-    
+
     // {
     //   id: 5,
     //   name: "Yashraj Sinha",
@@ -76,7 +76,7 @@ const Team = () => {
     //     github: "https://github.com/Yash05Raj",
     //   },
     // },
-    
+
     {
       id: 6,
       name: "Aakash Agarwal",
@@ -109,8 +109,8 @@ const Team = () => {
       image: photography,
       social: {
         email: "sathyac2004@gmail.com",
-        linkedin: "https://www.linkedin.com/in/sathyamrit-c-3a32372a4",
-        github: "https://github.com/sathyamrit",
+        linkedin: "https://www.linkedin.com/in/",
+        github: "https://github.com/",
       },
     }
   ];
